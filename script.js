@@ -1,5 +1,5 @@
 function toCase(text) {
-   let firtext = text.trim()
+   let firtext = text.trim().toLowerCase();
     let convert = text.trim().toUpperCase();
     return(firtext + "-" + convert)
 }
